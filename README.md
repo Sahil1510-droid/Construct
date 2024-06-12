@@ -1,6 +1,6 @@
 # Construction Company Project using PHP/MySQL
 
-![website](screenshots/website.png)
+![website](screenshots/website1.png)
 
 ## About This Project
 
