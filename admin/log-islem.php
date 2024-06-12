@@ -227,10 +227,10 @@ $query = $pdo->query("SELECT * FROM admin")->fetch();
                 data:$("#admin_form").serialize(),
                 success:function (context) {
                     Swal.fire({
-                        title: 'Başarılı!',
-                        text: 'İşlem başarılı bir şekilde gerçekleşti',
+                        title: 'Successful!',
+                        text: 'The transaction was completed successfully',
                         icon: 'success',
-                        confirmButtonText: 'Evet'
+                        confirmButtonText: 'Yes'
                     })
                 }
             });
@@ -273,4 +273,3 @@ $query = $pdo->query("SELECT * FROM admin")->fetch();
 </body>
 
 </html>
-
